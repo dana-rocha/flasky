@@ -11,7 +11,7 @@ def create_car():
 
     new_car = Car(
         driver=request_body["driver"],
-        team=request_body["team"],
+        # team=request_body["team"],
         mass_kg=request_body["mass_kg"]
     )
 
